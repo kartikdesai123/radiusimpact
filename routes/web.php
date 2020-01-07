@@ -14,7 +14,7 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
-
+Route::match(['get', 'post'], '/', ['as' => 'dashboard', 'uses' => 'frontend\DashboardController@dashboard']);
 Route::get('clear', function() {
     $exitCode = Artisan::call('cache:clear');
     $exitCode1 = Artisan::call('route:clear');
