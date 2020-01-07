@@ -45,7 +45,7 @@ Route::match(['get', 'post'], 'technical-support', ['as' => 'technical-support',
 Route::match(['get', 'post'], 'cloud-backup', ['as' => 'cloud-backup', 'uses' => 'frontend\CloudbackupController@index']);
 
 //portfolio
-Route::match(['get', 'post'], 'portfolio', ['as' => 'portfolio', 'uses' => 'frontend\portfolioController@index']);
+Route::match(['get', 'post'], 'portfolio', ['as' => 'portfolio', 'uses' => 'frontend\PortfolioController@index']);
 
 //contact
-Route::match(['get', 'post'], 'contact', ['as' => 'contact', 'uses' => 'frontend\contactController@index']);
+Route::match(['get', 'post'], 'contact', ['as' => 'contact', 'uses' => 'frontend\ContactController@index']);
