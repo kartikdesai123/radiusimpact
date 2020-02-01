@@ -6,7 +6,7 @@ $currRoute = Route::current()->getName();
         <div class="row">
 
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="{{ route('dashboard') }}"><img src="{{ url('public/frontend/assets/images/icons/R7.png') }}"></a>
+                <a class="navbar-brand" href="{{ route('dashboard') }}"><img style="height: 200px;" src="{{ url('public/frontend/assets/images/icons/R7.png') }}"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -22,13 +22,13 @@ $currRoute = Route::current()->getName();
                                 </li>
                                 <li><a href="{{ route('technical-support') }}">Technical Support</a>
                                 </li>
-                                <li><a href="{{ route('cloud-backup') }}">Cloud Backup</a>
+                                <!--<li><a href="{{ route('cloud-backup') }}">Cloud Backup</a>-->
                                 </li>
                             </ul>
                         </li> 
-                        <li class="nav-item {{ ($currRoute == 'portfolio')  ? 'active' : '' }}">
+<!--                        <li class="nav-item {{ ($currRoute == 'portfolio')  ? 'active' : '' }}">
                             <a class="nav-link abc" href="{{ route('portfolio') }}">Portfolio</a>
-                        </li>
+                        </li>-->
                         <li class="nav-item {{ ($currRoute == 'contact')  ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('contact') }}" style="border: none;">Contact</a>
                         </li>    

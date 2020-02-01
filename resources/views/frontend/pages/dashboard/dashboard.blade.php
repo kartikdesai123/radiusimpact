@@ -17,6 +17,7 @@
             <div class="col-md-12">
                 <h1 class="service-title">SERVICES</h1>
             </div>
+            <div class="col-md-2"></div>
             <div class="col-md-4">
                 <div class="service-1">
                     <div class="service-image">
@@ -37,7 +38,8 @@
                     <a href="{{ route('technical-support') }}"> Read More</a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2"></div>
+<!--            <div class="col-md-4">
                 <div class="service-1">
                     <div class="service-image">
                         <img src="{{ url('public/frontend/assets/images/icons/service-3.png') }}">
@@ -46,7 +48,7 @@
                     <p>Valuable data is something that you simply cannot replace.Our client know how critical it is backup...</p>
                     <a href="{{ route('cloud-backup') }}"> Read More</a>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div> 
 </section>
@@ -71,7 +73,7 @@
             </div>
             <div class="col-md-6">
                 <div class="about-detail">
-                    <p>Radius Impact can help you resolve the most frustrating computer or technology issues. We are an affordable solution for both business and residential needs. If you are not a client with Radius Impact and would like to request a per-incident support call or Would you like to upgrade to Windows 10? Contact Expert Tech to find out if your machine is compatible for an upgrade!</p>
+                    <p>Radius Impact can help you resolve the most frustrating computer or technology issues. We are an affordable solution for both business needs. If you are not a client with Radius Impact and would like to request a per-incident support call or Would you like to upgrade to Windows 10? Contact Expert Tech to find out if your machine is compatible for an upgrade!</p>
                     <a href="{{ route('contact') }}" class="btn-1">Contact Us Now</a>
                 </div>
             </div>
@@ -79,7 +81,7 @@
     </div>
 </section>
 
-<section class="portfolio">
+<!--<section class="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -87,14 +89,14 @@
                     <h1>PORTFOLIO</h1>
                 </div>
             </div>
-            <!-- MAIN (Center website) -->
+             MAIN (Center website) 
             <div class="main">
                 <div id="myBtnContainer" class="home-portbtn">
                     <button class="btn-2 active" onclick="filterSelection('all')"> Web Development</button>
                     <button class="btn-2" onclick="filterSelection('category-2')">Category 2</button>
                 </div>
 
-                <!-- Portfolio Gallery Grid -->
+                 Portfolio Gallery Grid 
                 <div class="row2">
                     <div class="column2 category-2">
                         <div class="content">
@@ -155,10 +157,10 @@
                         </div>
                     </div>
 
-                    <!-- END GRID -->
+                     END GRID 
                 </div>
 
-                <!-- END MAIN -->
+                 END MAIN 
             </div>
             <div class="col-md-12" style="text-align: center;">
                 <a href="{{ route('portfolio') }}" class="btn-3">See More</a>
@@ -167,7 +169,7 @@
 
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="contact">
     <div class="container"> 
