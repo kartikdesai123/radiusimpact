@@ -4,9 +4,9 @@ $currRoute = Route::current()->getName();
 <header>
     <div class="container">
         <div class="row">
-
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="{{ route('dashboard') }}"><img style="height: 200px;" src="{{ url('public/frontend/assets/images/icons/R7.png') }}"></a>
+            <nav class="navbar navbar-brand navbar-expand-lg navbar-dark fixed-top" style="background-color: #000000">
+                <a class="logo_light" href="{{ route('dashboard') }}"><img style="height: 200px;" src="{{ url('public/frontend/assets/images/icons/R7.png') }}"></a>
+                <a class="logo_dark" href="{{ route('dashboard') }}"><img style="height: 150px;" src="{{ url('public/frontend/assets/images/icons/R8.png') }}"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>

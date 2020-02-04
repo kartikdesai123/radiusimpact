@@ -31,3 +31,18 @@ jQuery(document).ready(function () {
             @endif
 });
 </script>
+<script>
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 10) {
+    $('.logo_dark').fadeIn();
+  } else {
+    $('.logo_dark').fadeOut();
+  }
+  if (y <= 1) {
+    $('.logo_light').fadeIn();
+  } else {
+    $('.logo_light').fadeOut();
+  }
+});
+</script>
