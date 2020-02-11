@@ -17,7 +17,7 @@ $currRoute = Route::current()->getName();
                         </li>
                         <li class="nav-item dropdown {{ $currRoute == 'technical-support' || $currRoute == 'services' || $currRoute == 'cloud-backup' || $currRoute == 'web-development' ? 'active' : '' }}">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
-                            <ul class="dropdown-menu" style:>
+                            <ul class="dropdown-menu" style="left: 50% !important;  right: auto !important;  text-align: center !important;  transform: translate(-50%, 0) !important;">
                                 <li><a href="{{ route('web-development') }}">Web Development</a>
                                 </li>
                                 <li><a href="{{ route('technical-support') }}">Technical Support</a>
