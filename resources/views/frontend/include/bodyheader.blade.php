@@ -22,13 +22,8 @@ $currRoute = Route::current()->getName();
                                 </li>
                                 <li><a href="{{ route('technical-support') }}">Technical Support</a>
                                 </li>
-                                <!--<li><a href="{{ route('cloud-backup') }}">Cloud Backup</a>-->
-                                </li>
                             </ul>
                         </li> 
-<!--                        <li class="nav-item {{ ($currRoute == 'portfolio')  ? 'active' : '' }}">
-                            <a class="nav-link abc" href="{{ route('portfolio') }}">Portfolio</a>
-                        </li>-->
                         <li class="nav-item {{ ($currRoute == 'contact')  ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('contact') }}" style="border: none;">Contact</a>
                         </li>    
