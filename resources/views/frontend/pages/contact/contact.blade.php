@@ -49,15 +49,25 @@
                                     <span class="icon-textarea fas fa-comment "></span>
                                 </div>
                             </div>
+                            <div class="col-md-12" style="padding:0px;padding-bottom: 10px">
+                                <div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}"></div>
+                                @if ($errors->has('g-recaptcha-response'))
+                                <span class="invalid-feedback" style="display: block;">
+                                    <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                </span>
+                                @endif
+                            </div>
                             <div class="col-md-12">
                                 <div class="custom-control no-center">
                                     <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
                                     <label class="custom-control-label" for="customCheck">Send copy to yourself</label>
                                 </div>
                             </div>
+                            
+
                             <div class="col-md-12">
                                 <div class="frm-btn no-center">
-                                    <input type='submit' class='btn-2' value='Submit'>
+                                    <input type='submit' id='submit' class='btn-2' value='Submit'>
                                 </div>
                             </div>
                         </form>

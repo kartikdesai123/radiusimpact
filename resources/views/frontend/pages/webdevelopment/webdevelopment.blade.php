@@ -43,7 +43,7 @@
                     <div class="step-detail">
                         <h6>CONSULTATION MEETING</h6>
                         <p>The first step of the process is to contact us and set up a time to meet with you to go over what type of website you want and the goals of the website. If you have a web designer that you are working with, it would be good for him or her to join in on this meeting. If you do not have a web designer, we can provide one for you as part of the web development project. Once we have the basic blueprint of the website, we can have a designer start creating the website.
-                        </p>
+</p>
                     </div>
                 </div>
                 <div class="step-1">
@@ -54,8 +54,8 @@
                     </div>
                     <div class="step-detail">
                         <h6>WEB DESIGNER CREATES THE WEBSITE</h6>
-                        <p>The first step of the process is to contact us and set up a time to meet with you to go over what type of website you want and the goals of the website. If you have a web designer that you are working with, it would be good for him or her to join in on this meeting. If you do not have a web designer, we can provide one for you as part of the web development project. Once we have the basic blueprint of the website, we can have a designer start creating the website.
-                        </p>
+                        <p>We will go over how many pages you need and you will need to provide all the content that will go onto the site such as pictures, pdf files, text, etc. Once we have the basic outline of what you want for a website, the designer will create a design look for your site. This will give you an opportunity to make changes to the design.
+</p>
                     </div>
                 </div>
                 <div class="step-1">
@@ -66,8 +66,8 @@
                     </div>
                     <div class="step-detail">
                         <h6>WEB DEVELOPMENT</h6>
-                        <p>The first step of the process is to contact us and set up a time to meet with you to go over what type of website you want and the goals of the website. If you have a web designer that you are working with, it would be good for him or her to join in on this meeting. If you do not have a web designer, we can provide one for you as part of the web development project. Once we have the basic blueprint of the website, we can have a designer start creating the website.
-                        </p>
+                        <p>Once you approve the design we will begin creating the programming side of the website. We will provide you with regular updates on the website and you will be able to see the work in progress hosted on our servers. This will also give you an opportunity to make changes to your site. Of course the site can always be teaked or updated.
+</p>
                     </div>
                 </div>
                 <div class="step-1">
@@ -78,8 +78,9 @@
                     </div>
                     <div class="step-detail">
                         <h6>STEP GO LIVE</h6>
-                        <p>The first step of the process is to contact us and set up a time to meet with you to go over what type of website you want and the goals of the website. If you have a web designer that you are working with, it would be good for him or her to join in on this meeting. If you do not have a web designer, we can provide one for you as part of the web development project. Once we have the basic blueprint of the website, we can have a designer start creating the website.
-                        </p>
+                        <p>
+When the website is fully complete and has been reviewed by you and the changes have been made, it's time to go live! What that means is that your new site will be published on your domain for everyone to see.
+</p>
                     </div>
                 </div>
                 <div class="step-1">

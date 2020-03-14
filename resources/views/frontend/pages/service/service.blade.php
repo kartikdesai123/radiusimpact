@@ -13,6 +13,7 @@
             <div class="col-md-12">
                 <h1 class="service-title">SERVICES</h1>
             </div>
+            <div class="col-md-2"></div>
             <div class="col-md-4">
                 <div class="service-1">
                     <div class="service-image">
@@ -33,7 +34,8 @@
                     <a href="{{ route('technical-support') }}"> Read More</a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2"></div>
+<!--            <div class="col-md-4">
                 <div class="service-1">
                     <div class="service-image">
                         <img src="{{ url('public/frontend/assets/images/icons/service-3.png') }}">
@@ -42,7 +44,7 @@
                     <p>Valuable data is something that you simply cannot replace.Our client know how critical it is backup...</p>
                     <a href="{{ route('cloud-backup') }}"> Read More</a>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div> 
 </section>
