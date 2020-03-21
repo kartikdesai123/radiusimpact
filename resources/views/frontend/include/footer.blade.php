@@ -8,7 +8,7 @@
 <script src="{{ url('public/frontend/assets/js/comman_function.js') }}"></script>
 <script src="{{ url('public/frontend/assets/js/ajaxfileupload.js') }}"></script>
 <script src="{{ url('public/frontend/assets/js/jquery.form.min.js') }}"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="{{ url('public/frontend/assets/js/customjs/recapcha.js') }}"></script>
 
 @if (!empty($pluginjs)) 
 @foreach ($pluginjs as $value) 

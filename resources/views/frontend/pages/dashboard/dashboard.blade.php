@@ -39,16 +39,16 @@
                 </div>
             </div>
             <div class="col-md-2"></div>
-<!--            <div class="col-md-4">
-                <div class="service-1">
-                    <div class="service-image">
-                        <img src="{{ url('public/frontend/assets/images/icons/service-3.png') }}">
-                    </div>  
-                    <h3>Cloud Backup</h3>
-                    <p>Valuable data is something that you simply cannot replace.Our client know how critical it is backup...</p>
-                    <a href="{{ route('cloud-backup') }}"> Read More</a>
-                </div>
-            </div>-->
+            <!--            <div class="col-md-4">
+                            <div class="service-1">
+                                <div class="service-image">
+                                    <img src="{{ url('public/frontend/assets/images/icons/service-3.png') }}">
+                                </div>  
+                                <h3>Cloud Backup</h3>
+                                <p>Valuable data is something that you simply cannot replace.Our client know how critical it is backup...</p>
+                                <a href="{{ route('cloud-backup') }}"> Read More</a>
+                            </div>
+                        </div>-->
         </div>
     </div> 
 </section>
@@ -208,6 +208,16 @@
                             <span class="icon-textarea fas fa-comment "></span>
                         </div>
                     </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" style="padding-bottom: 10px">
+                        <div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}"></div>
+                        @if ($errors->has('g-recaptcha-response'))
+                        <span class="invalid-feedback" style="display: block;">
+                            <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                        </span>
+                        @endif
+                    </div>
+                    <div class="col-md-4"></div>
                     <div class="col-md-12">
                         <div class="custom-control">
                             <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
@@ -216,7 +226,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="frm-btn">
-                            <input type='submit' class='btn-2' value='Submit'>
+                            <input type='submit' class='btn-2' value='Submit' id='submit'>
                         </div>
                     </div>
                 </form>
