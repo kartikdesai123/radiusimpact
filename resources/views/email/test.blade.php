@@ -71,6 +71,11 @@
                             </td>
                         </tr>
                         <tr>
+                            <td align="center" valign="top" style="padding: 0 0 50px 0;">
+                                <img src="{{asset('public/frontend/assets/images/icons/R7.png')}}" alt="{{config('app.name')}}" width="250" height="145" border="0" style="display: block;">
+                            </td>
+                        </tr>
+                        <tr>
                             <td align="left" valign="top" style="padding: 50px; font-family: Open Sans, Helvetica, Arial, sans-serif; border-radius: 3px; " bgcolor="#ffffff">
                                 <p style="color: #999999; font-size: 16px; line-height: 26px; margin: 0;">
 
@@ -79,11 +84,11 @@
                                     Messege: {{ $data['msg'] }}<br><br>
 
                                     Thanks, <br>
-                                    Mototive Web Solution.
+                                    Radius Impact Technology.
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+<!--                        <tr>
                             <td align="center" valign="top" style="padding: 25px 0; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #000;">
                                 <p style="font-size: 14px; line-height: 20px;color:#999999">
                                     Titanium city center,<br>
@@ -94,7 +99,7 @@
                                     <a href="#" style="color: #999999;" target="_blank"></a>
                                 </p>
                             </td>
-                        </tr>
+                        </tr>-->
                     </table>
                 </td>
             </tr>

@@ -10,10 +10,10 @@ class SendSMS extends Model {
     public function sendMailltesting($request) {
 
         $mailData['data'] = $request;
-        $mailData['subject'] = 'From Mototive Web Solution Contact Us';
+        $mailData['subject'] = 'From Radius Impact Technology';
         $mailData['attachment'] = array();
         $mailData['template'] = "email.test";
-        $mailData['mailto'] = 'mahendrajavandhra@gmail.com';
+        $mailData['mailto'] = 'info@radiusimpact.ca';
         $sendMail = new Sendmail;
         return $sendMail->sendSMTPMail($mailData);
     }
