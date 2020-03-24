@@ -17,7 +17,7 @@ class ServicesController extends Controller
         $data['css'] = array();
         $data['plugincss'] = array();
         $data['pluginjs'] = array();
-        $data['js'] = array('service.js');
+        $data['js'] = array('services.js');
         $data['funinit'] = array('Services.init()');
         return view('frontend.pages.service.service', $data);
     }

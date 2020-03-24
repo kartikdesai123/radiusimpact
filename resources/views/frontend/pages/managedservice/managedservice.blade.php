@@ -10,22 +10,17 @@
 <section class="web">
     <div class="container">
         <div class="row">
-<!--            <div class="col-md-12">
+            <div class="col-md-12">
                 <h1 class="web-title web-title-2">MANAGED SERVICES</h1>
-            </div>-->
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <h4 class="">comming soon...</h4>
             </div>
-            <div class="col-md-4"></div>
-<!--            <div class="col-lg-4">
+            <div class="col-lg-4">
                 <div class="service-1">
                     <div class="web-image web-image-2">
-                        <img src="{{ url('public/frontend/assets/images/icons/service-2.png') }}">
+                        <img src="{{ url('public/frontend/assets/images/icons/service-3.png') }}">
                     </div>   
                 </div>
             </div>
-            <div class="col-lg-8">
+<!--            <div class="col-lg-8">
                 <div class="tech-detail">
                     <h3>Technical Support</h3>
                     <p>We provide high end technical support to all our clients. If you are in need of our technical support service and are not a client, please register</p>
