@@ -41,6 +41,9 @@ Route::match(['get', 'post'], 'web-development', ['as' => 'web-development', 'us
 //technical support
 Route::match(['get', 'post'], 'technical-support', ['as' => 'technical-support', 'uses' => 'frontend\TechnicalsuppoertController@index']);
 
+//Managed Services
+Route::match(['get', 'post'], 'managed-services', ['as' => 'managed-services', 'uses' => 'frontend\ManagedserviceController@index']);
+
 //cloud backup
 Route::match(['get', 'post'], 'cloud-backup', ['as' => 'cloud-backup', 'uses' => 'frontend\CloudbackupController@index']);
 

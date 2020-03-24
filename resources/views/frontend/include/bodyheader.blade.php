@@ -22,6 +22,8 @@ $currRoute = Route::current()->getName();
                                 </li>
                                 <li><a href="{{ route('technical-support') }}">Technical Support</a>
                                 </li>
+                                <li><a href="{{ route('managed-services') }}">Managed Services</a>
+                                </li>
                             </ul>
                         </li> 
                         <li class="nav-item {{ ($currRoute == 'contact')  ? 'active' : '' }}">

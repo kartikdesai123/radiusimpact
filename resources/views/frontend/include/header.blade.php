@@ -1,8 +1,9 @@
 <head>
     <title>{{ $title }}</title>
     <meta charset="utf-8">
-    <link rel="icon" href="{{ url('public/frontend/assets/images/icons/R7.png') }}" type="image/gif" sizes="16x16">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<link rel="icon" href="{{ url('public/frontend/assets/images/icons/favicon.ico') }}" type="image/png" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="{{ url('public/frontend/assets/fontawesome-5/css/all.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('public/frontend/assets/css/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('public/frontend/assets/css/bootstrap.css') }}">

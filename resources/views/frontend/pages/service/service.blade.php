@@ -40,7 +40,7 @@
                     </div>  
                     <h3>Managed Services</h3>
                     <p>We provide high end technical support to all our clients.If you are in need of our technical support...</p>
-                    <a href="{{ route('technical-support') }}"> Read More</a>
+                    <a href="{{ route('managed-services') }}"> Read More</a>
                 </div>
             </div>
 <!--            <div class="col-md-4">
