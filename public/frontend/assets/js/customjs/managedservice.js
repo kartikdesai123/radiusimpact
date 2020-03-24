@@ -1,4 +1,4 @@
-var Contact = function () {
+var Managedservice = function () {
 
     var list = function () {
 
