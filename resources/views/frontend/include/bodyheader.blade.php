@@ -29,6 +29,9 @@ $currRoute = Route::current()->getName();
                         <li class="nav-item {{ ($currRoute == 'contact')  ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('contact') }}" style="border: none;">Contact</a>
                         </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://support.radiusimpact.ca/GetAgent/Msi/?customerId=1&integratorLogin=support@radiusimpact.ca" style="border: none;">Remote <br>Support</a>
+                        </li>    
                     </ul>
                 </div>  
             </nav>
