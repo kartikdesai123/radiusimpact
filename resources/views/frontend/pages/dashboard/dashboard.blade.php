@@ -178,7 +178,15 @@
         </div>
     </div>
 </section>-->
-
+<section class="our-partner">
+    <div class="container">
+        <div class="row">
+            <div class="banner-heading">
+                
+            </div>
+        </div>
+    </div> 
+</section>
 <section class="contact">
     <div class="container"> 
         <div class="row">
@@ -243,4 +251,9 @@
         </div>
     </div>
 </section>
+<style>
+    #contactusform input{
+        max-width: 100%;
+    }
+</style>
 @endsection

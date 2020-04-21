@@ -1,6 +1,6 @@
 @extends('frontend.layout.app')
 @section('content')
-<section class="tech-hero-section">
+<section class="managed-services">
     <div class="container">
         <div class="row">
 
